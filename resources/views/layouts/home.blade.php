@@ -30,13 +30,6 @@
         </div>
       </div>
 
-      <h6>
-        検索オプション
-      </h6>
-        <div class="form-check-inline mb-3"> 
-          <input type="checkbox" id="op" name="op[]" value="自重トレ">自重
-          <input type="checkbox" id="op" name="op[]" value="ダンベル">ダンベル
-        </div>
 
       <div class="mb-3 w-auto">
         検索結果表示数: <input type="number" id="maxResults" name="maxResults" min="1" max="50" step="1" value="10">
