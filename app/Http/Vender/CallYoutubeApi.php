@@ -7,14 +7,13 @@ use Google_Service_YouTube;
 
 class CallYoutubeApi
 {
-    private $key = 'AIzaSyA1YCHHfJSH_9SPvQGKTqne3-DlEC9G-So';
     private $client;
     private $youtube;
     
     public function __construct()
     {
         $this->client = new Google_Client();
-        $this->client->setDeveloperKey($this->key);
+        $this->client->setDeveloperKey(env('GOOGLE_API_KEY'));
         $this->youtube = new Google_Service_YouTube($this->client);
     }
     
