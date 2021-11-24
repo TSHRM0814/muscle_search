@@ -29,5 +29,5 @@ Youtubeの筋力トレーニング動画をボタン操作だけで簡単に検�
 ## デモ画面
 
 <a href="https://shrouded-gorge-46000.herokuapp.com/">
-<img src="muscle_search_photo" >
+<img src="dev/muscle_search_photo" >
 </a>
